@@ -21,7 +21,7 @@ int main()
 	string file = "";
 	string answer = "";
 top:
-	cout << "\nPlease enter your income to calculate your taxes\n " << endl;
+	cout << "\nPlease enter your income to calculate your taxes\n ">> << endl;
 	cin >> income;
 	while (!(cin >> income)) //get input
 	{
@@ -35,7 +35,7 @@ top:
 			//if input fails, run this
 			cin.clear();
 			cin.sync();
-			cout << "\nSorry, that was not a valid number. Please enter a valid number\n ";
+			cout << "\nSorry, that was not a valid number. Please enter a valid number\n ">>;
 		}
 	}
 	cin.ignore(80, '\n');
@@ -70,18 +70,19 @@ top:
 			add = 181;
 		}
 	}
-
+	{
 	incomeTax = ((income - subtract) * taxRate) + add;
 
 	cout << "\nYour taxable income is " << income << endl;
 
 	}
+	{
+		cout << "\nThat means your income tax will be " << incomeTax << endl;
 
-	cout << "\nThat means your income tax will be " << incomeTax << endl;
+		system("PAUSE");
 
-	system("PAUSE");
-
-	return 0;
+		return 0;
+	}
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
