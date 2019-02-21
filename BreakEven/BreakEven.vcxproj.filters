@@ -18,6 +18,9 @@
     <ClInclude Include="pch.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="OutFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
@@ -26,5 +29,11 @@
     <ClCompile Include="BreakEven.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="OutFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="InputData.txt" />
   </ItemGroup>
 </Project>

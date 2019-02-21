@@ -3,7 +3,13 @@
 
 #include "pch.h"
 #include <iostream>
+#include <cstdlib>
+#include <cmath>
+#include <sstream>
 
+using namespace std;
+
+#include "OutFile.h"
 
 int main()
 {
