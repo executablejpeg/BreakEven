@@ -1,2 +1,2 @@
 
-void OutputData(string send);
+void OutputData(int send);
