@@ -20,7 +20,7 @@ int main()
 	string taxStatus = "";
 	string file = "";
 	string answer = "";
-top:
+
 	cout << "\nPlease enter your income to calculate your taxes\n ">> << endl;
 	cin >> income;
 	while (!(cin >> income)) //get input
@@ -61,7 +61,7 @@ top:
 			add = 85;
 		}
 
-		if (income > 4313)
+		if (income >= 4313 & income <= 157,500)
 		{
 			taxRate = .075;
 			subtract = 4313;
