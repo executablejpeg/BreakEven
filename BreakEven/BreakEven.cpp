@@ -12,6 +12,7 @@ using namespace std;
 
 int main()
 {
+	int sendIt = 25;
 	double income = 0;
 	double taxRate = 0;
 	double add = 0;
@@ -21,7 +22,9 @@ int main()
 	string file = "";
 	string answer = "";
 
-	cout << "\nPlease enter your income to calculate your taxes\n ">> << endl;
+	OutputData(sendIt);
+
+	cout << "\nPlease enter your income to calculate your taxes\n " << endl;
 	cin >> income;
 	while (!(cin >> income)) //get input
 	{

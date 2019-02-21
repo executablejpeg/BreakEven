@@ -5,7 +5,7 @@
 
 using namespace std;
 
-void OutputData(string send)
+void OutputData(int send)
 {
 	ofstream OutFile;
 	OutFile.open("InformationData.txt");
