@@ -40,8 +40,6 @@ top:
 	}
 	cin.ignore(80, '\n');
 
-	int main()
-	{
 		if (income <= 9525)
 		{
 			taxRate = .1;
@@ -69,13 +67,13 @@ top:
 			subtract = 4313;
 			add = 181;
 		}
-	}
+	
 
 	incomeTax = ((income - subtract) * taxRate) + add;
 
 	cout << "\nYour taxable income is " << income << endl;
 
-	}
+	
 
 	cout << "\nThat means your income tax will be " << incomeTax << endl;
 
