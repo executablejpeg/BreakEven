@@ -3,11 +3,25 @@
 
 #include "pch.h"
 #include <iostream>
+#include <cstdlib>
+#include <cmath>
+#include <sstream>
+
+using namespace std;
+
+#include "OutFile.h"
 
 int main()
 {
+	string sendIt;
 	int i = 5;
-    std::cout << "Hello World!\n"; 
+
+	cout << "Please enter in a test string for the file:";
+	getline (cin, sendIt);
+
+	OutputData(sendIt);
+
+    cout << "Hello World!\n"; 
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
