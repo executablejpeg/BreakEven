@@ -2,9 +2,10 @@
 #include <fstream>
 #include <string>
 
+
 using namespace std;
 
-void OutputData(send)
+void OutputData(string send)
 {
 	ofstream OutFile;
 	OutFile.open("InformationData.txt");
