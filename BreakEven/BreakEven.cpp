@@ -1,7 +1,6 @@
 // BreakEven.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //https://docs.google.com/document/d/1-9t5KPQpW6fBKbdhmPBgDkc0TF3SZefb5MSHtIl6mtI/edit?usp=sharing
 
-#include "pch.h"
 #include <iostream>
 #include <cstdlib>
 #include <cmath>
