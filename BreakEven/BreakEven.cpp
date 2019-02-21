@@ -51,20 +51,20 @@ int main()
 		{
 			taxRate = .12;
 			subtract = 9525;
-			add = 25;
+			add = 952.5;
 		}
 
 		if (income >= 38701 & income <= 82500)
 		{
 			taxRate = .22;
 			subtract = 38700;
-			add = 85;
+			add = ;
 		}
 
-		if (income >= 4313 & income <= 157,500)
+		if (income >= 82501 & income <= 157500)
 		{
-			taxRate = .075;
-			subtract = 4313;
+			taxRate = .24;
+			subtract = 82501;
 			add = 181;
 		}
 	
