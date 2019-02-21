@@ -38,7 +38,7 @@ int main()
 			//if input fails, run this
 			cin.clear();
 			cin.sync();
-			cout << "\nSorry, that was not a valid number. Please enter a valid number\n ";
+			cout << "\nSorry, that was not a valid number. Please enter a valid number\n ">>;
 		}
 	}
 	cin.ignore(80, '\n');
@@ -64,7 +64,7 @@ int main()
 			add = 85;
 		}
 
-		if (income > 4313)
+		if (income >= 4313 & income <= 157,500)
 		{
 			taxRate = .075;
 			subtract = 4313;
@@ -80,9 +80,10 @@ int main()
 
 	cout << "\nThat means your income tax will be " << incomeTax << endl;
 
-	system("PAUSE");
+		system("PAUSE");
 
-	return 0;
+		return 0;
+	}
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
